@@ -1,33 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
-  background-color: #f6f8fa;
+  background-color: #272a2d;
+  color: #e0e0e0;
 }
 
 .navbar {
-  background-color: #20232a;
-  color: white;
+  background-color: #012355; /* dark blue */
+  color: #ffffff;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 15px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar a {
-  color: white;
+  color: #ffffff;
   text-decoration: none;
+  font-weight: 500;
 }
 
 .navbar a:hover {
+  color: #90caf9; /* light blue hover */
   text-decoration: underline;
 }
 
 .content {
   padding: 20px;
+  background-color: #2b2b2b; /* slightly lighter dark gray */
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
